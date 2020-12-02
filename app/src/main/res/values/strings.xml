@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">COVID 19</string>
+    <string name="back_main">back_main</string>
+    <string name="first">First</string>
+    <string name="month">Month</string>
+    <string name="region">Region</string>
+    <string name="five_days_ago">Five days ago</string>
+    <string name="four_days_ago">Four days ago</string>
+    <string name="three_days_ago">Three days ago</string>
+    <string name="two_days_ago">Two days ago</string>
+    <string name="a_day_ago">A day ago</string>
+</resources>

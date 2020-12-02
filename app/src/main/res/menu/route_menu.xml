@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_five_d"
+            android:title="@string/five_days_ago"
+            />
+        <item
+            android:id="@+id/menu_four_d"
+            android:title="@string/four_days_ago"
+            />
+        <item
+            android:id="@+id/menu_three_d"
+            android:title="@string/three_days_ago"
+            />
+        <item
+            android:id="@+id/menu_two_d"
+            android:title="@string/two_days_ago"
+            />
+        <item
+            android:id="@+id/menu_one_d"
+            android:title="@string/a_day_ago"
+            />
+    </group>
+</menu>

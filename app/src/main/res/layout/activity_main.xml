@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="260dp"
+        android:src="@drawable/paint1"
+        android:layout_gravity="center"
+        android:translationY="50dp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:text="통계"
+        android:textSize="18dp"
+        android:background="#ff3399"
+        android:layout_gravity="center"
+        android:translationY="70dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:background="#ff3399"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:text="자기진단표"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:translationY="70dp"
+         />
+
+    <Button
+        android:id="@+id/btn3"
+        android:background="#ff3399"
+        android:layout_marginBottom="8dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:text="확진자 동선"
+        android:layout_gravity="center"
+        android:translationY="70dp"
+/>
+    <Button
+        android:id="@+id/btn4"
+        android:background="#ff3399"
+        android:layout_marginBottom="8dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:text="코로나 정책"
+        android:layout_gravity="center"
+        android:translationY="70dp" />
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:background="#ff3399"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="18dp"
+        android:text="종료"
+        android:layout_gravity="center"
+        android:translationY="70dp" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/menu_first"
+            android:title="@string/first"
+            />
+        <item
+            android:id="@+id/menu_month"
+            android:title="@string/month"
+            />
+        <item
+            android:id="@+id/menu_region"
+            android:title="@string/region"
+            />
+    </group>
+</menu>
